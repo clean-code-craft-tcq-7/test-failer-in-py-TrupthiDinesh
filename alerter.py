@@ -9,7 +9,10 @@ def network_alert_stub(celcius):
         return 200
     else:
         return celcius
-
+    
+    
+ def farenhiet_to_celcius(farenheit):
+    return (farenheit - 32) * 5 / 9
 
 def alert_in_celcius(farenheit):
     celcius = (farenheit - 32) * 5 / 9
