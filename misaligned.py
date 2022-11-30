@@ -1,5 +1,4 @@
 
-def print_color_map():
     major_colors = ["White", "Red", "Black", "Yellow", "Violet"]
     minor_colors = ["Blue", "Orange", "Green", "Brown", "Slate"]
 def get_number(majorColor, minorColor):
