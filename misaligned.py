@@ -10,4 +10,5 @@ def print_color_map():
 
 result = print_color_map()
 assert(result == 25)
+assert(get_pair_number("White", "Orange") == 1)
 print("All is well (maybe!)\n")
